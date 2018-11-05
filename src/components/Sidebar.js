@@ -10,6 +10,7 @@ const StyledSidebar = styled.div`
   border-right: 1px solid #dcdde1;
   transition: width 500ms;
   position: fixed;
+  height: 100%;
   top: 0;
   left: 0;
   overflow: scroll;

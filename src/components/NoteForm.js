@@ -50,8 +50,8 @@ class NoteForm extends Component {
 
   componentDidMount() {
     if (this.props.note) {
-      const { title, textBody, tags } = this.props.note;
-      this.setState({ title, textBody, tags });
+      const { title, body } = this.props.note;
+      this.setState({ title, body });
     }
   }
 
